@@ -7,15 +7,15 @@
     <title>Café Nate</title>
   </head>
   <body>
-    <header>
-      <form id="site-search" method="GET" action="#">
+    <header role="banner">
+      <form id="site-search" method="GET" action="#" role="search">
         <input type="text" id="query" name="query" placeholder="search">
         <input type="submit" value="Search">
       </form>
       <h1>Café Nate</h1>
     </header>
     <div id="sidebar">
-      <nav id="global-nav">
+      <nav id="global-nav" role="navigation">
         <ul>
           <li><a href="#">Menus</a></li>
           <li><a href="#">Location</a></li>
@@ -24,7 +24,7 @@
         </ul>
       </nav>
 
-      <aside id="whats-new">
+      <aside id="whats-new" role="complementary">
         <header>
           <h2>What's New</h2>
         </header>
@@ -35,7 +35,7 @@
         </p>
       </aside>
     </div>
-    <main id="main">
+    <main id="main" role="main">
       <article>
         <header>
           <h2>Get café nated!</h2>
@@ -58,7 +58,7 @@
         </p>
       </article>
     </main>
-    <footer>
+    <footer role="contentinfo">
       <p id="copyright">&copy; 2015 by Café Nate</p>
       <nav id="persistent-links">
         <a href="#">Privacy policy</a> &middot;
@@ -66,4 +66,3 @@
       </nav>
     </footer>
 </html>
-
