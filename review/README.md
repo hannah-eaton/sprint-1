@@ -77,3 +77,5 @@ Glad you enjoyed the read!
 Good feedback. Were you able to read the first chapter of *Search Inside Yourself*? If so, what did you think?
 
 Overall, very nice. Keep up the good work. Please fix the style of your `index.html` file and commit your changes. Looking forward to seeing your work as you progress through the course.
+
+P.S. Congratulations for being the only student in your class who caught on to the proper style for naming GitHub users: snake-case (lowercase separated by hyphens). Your classmates may be sorry later... or not. :-)
